@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Tracker - Signup</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    <div class="signup">
+        <h1>Signup</h1>
+        <form id="signupForm">
+            <div class="input-field">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="input-field">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="input-field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-field">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="input-field">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-field">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <div class="signup_msg">
+                <p>By Clicking Signup Mean You Agree To Our <a href="" class="terms">Terms Or Service</a></p>
+            </div>
+
+            <input type="submit" class="btn" value="Signup">
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js"></script>
+
+    
+    <script src="./js/cryptoHelper.js"></script> 
+
+    <script src="./js/signup.js"></script>
+</body>
+</html>

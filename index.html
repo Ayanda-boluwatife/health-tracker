@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Tracker - Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Welcome to Health Tracker</h1>
+    <p id="welcomeMessage"></p>
+
+    <!-- Tabs -->
+    <button class="tabLinks" onclick="openTab('healthHistoryTab')">Health History</button>
+    <button class="tabLinks" onclick="openTab('checkHealthTab')">Check Health</button>
+    <!-- Add more tabs and corresponding tab content as needed -->
+
+    <!-- Tab Content -->
+    <div id="healthHistoryTab" class="tab">
+        hdjffjh
+        <!-- Health History Content -->
+        <!-- Display health history for the logged-in user here -->
+    </div>
+    <div id="checkHealthTab" class="tab">
+        <h2>Check Your Current Health</h2>
+        <form id="healthCheckForm">
+            <label for="bloodPressure">Blood Pressure:</label>
+            <input type="text" id="bloodPressure" name="bloodPressure" required>
+
+            <label for="heartRate">Heart Rate:</label>
+            <input type="text" id="heartRate" name="heartRate" required>
+
+            <label for="temperature">Body Temperature:</label>
+            <input type="text" id="temperature" name="temperature" required>
+
+            <input type="submit" value="Submit">
+        </form>
+        <p id="healthCheckResult"></p>
+        <!-- Check Health Content -->
+        <!-- Add a form or content to check the current health status here -->
+    </div>
+    <!-- Add more tab content elements as needed -->
+
+    <button id="logoutBtn">Logout</button>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

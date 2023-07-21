@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(7px);
+}
+
+.signup{
+    background-color: white;
+    width: 40%;
+    box-shadow: 0, 0, 0, 0.7px black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.terms{
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.btn{
+    padding: 8px 30px;
+    cursor: pointer;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 4px;
+}
+
+label{
+    margin-top: 4px;
+}
+
+.signup_msg{
+    margin-top: 4px;
+}
